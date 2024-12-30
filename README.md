@@ -1,8 +1,8 @@
-An inference system is a framework for deriving logical conclusions from a set of premises or facts. In computer science, especially in artificial intelligence, inference systems are used to implement reasoning processes. They are used in various applications like expert systems, natural language processing, and automated theorem proving.
+# Inference-system
 
-Here's a more detailed explanation of each key component and file in this repository:
+An inference system is a framework for deriving logical conclusions from a set of premises or facts. In computer science, especially in artificial intelligence, inference systems are used to implement various reasoning processes.
 
-### Files Overview
+## Files Overview
 
 - **backwardChaining.py**:
   - Implements the Backward Chaining algorithm for inference.
@@ -35,7 +35,7 @@ Here's a more detailed explanation of each key component and file in this reposi
   - Contains utility functions for parsing logical expressions, handling parentheses, and extracting literals and clauses.
   - It includes methods to find and process tokens in logical expressions, which are essential for converting and manipulating these expressions in various algorithms.
 
-### Setup and Usage
+## Setup and Usage
 
 1. **Clone the repository**:
    ```bash
@@ -56,11 +56,11 @@ Example:
    ```
    This will run the Forward Chaining algorithm on the `example.txt` file.
 
-### Contributions
+## Contributions
 
 Contributions are welcome. Please fork the repository and submit a pull request for any improvements or additional features.
 
-### Inference System Explanation
+## Inference System Explanation
 
 An inference system can be broadly categorized into the following components:
 
@@ -87,3 +87,5 @@ An inference system can be broadly categorized into the following components:
      - It involves refuting the negation of the query and deriving a contradiction.
 
 By understanding these concepts and how they are implemented in the provided code, you can effectively utilize the inference system to solve various logical inference problems.
+
+---
